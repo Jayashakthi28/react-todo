@@ -22,8 +22,8 @@ function Todo({todo,settodoObj,todoObj}){
         <div className="todo">
             <h2 className={(todo.isDone)?"completed":""}>{todo.value}</h2>
             <div className="button-wrapper">
-            <button onClick={del} className="icon-btn"><img src={delIcon}></img></button>
-            <button onClick={comp} className="icon-btn"><img src={checkIcon}></img></button>
+            <button onClick={del} className="icon-btn"><img src={delIcon} alt=""></img></button>
+            <button onClick={comp} className="icon-btn"><img src={checkIcon} alt=""></img></button>
             </div>
         </div>
     )
