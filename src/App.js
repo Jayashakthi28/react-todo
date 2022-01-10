@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Inp_get from './components/Input-get';
-import Todo_list from './components/todo_list';
+import InpGet from './components/Input-get';
+import TodoList from './components/todo_list';
 import {useState,useEffect} from 'react';
 
 
@@ -46,8 +45,8 @@ function App() {
         <h1 className='title'>Todo List</h1>
       </header>
       <div className='todo-cont'>
-        <Inp_get inp={inp} setinp={setinp} todoObj={todoObj} settodoObj={settodoObj} setStatus={setStatus}/>
-        <Todo_list todoObj={todoObj} settodoObj={settodoObj} filterTodo={filterTodo}/>
+        <InpGet inp={inp} setinp={setinp} todoObj={todoObj} settodoObj={settodoObj} setStatus={setStatus}/>
+        <TodoList todoObj={todoObj} settodoObj={settodoObj} filterTodo={filterTodo}/>
       </div>
     </div>
   );

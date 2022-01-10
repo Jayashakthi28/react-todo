@@ -1,7 +1,7 @@
-import React,{useState} from "react";
+import React from "react";
 
 
-function Inp_get({inp,setinp,todoObj,settodoObj,setStatus}){
+function InpGet({inp,setinp,todoObj,settodoObj,setStatus}){
     const inpSet=(e)=>{
         setinp(e.target.value);
     }
@@ -45,4 +45,4 @@ function Inp_get({inp,setinp,todoObj,settodoObj,setStatus}){
     )
 }
 
-export default Inp_get;
+export default InpGet;

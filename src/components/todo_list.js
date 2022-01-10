@@ -1,7 +1,7 @@
 import React from "react";
 import Todo from "./todo";
 
-function Todo_list({todoObj,settodoObj,filterTodo}){
+function TodoList({todoObj,settodoObj,filterTodo}){
     return(
         <div className="todo-list">
             {filterTodo.map(todo=>
@@ -11,4 +11,4 @@ function Todo_list({todoObj,settodoObj,filterTodo}){
     )
 }
 
-export default Todo_list;
+export default TodoList;
